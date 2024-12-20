@@ -1,0 +1,9 @@
+GeoGaussian：
+不适用colmap，直接使用RGB-D数据集
+使用pcd.estimate_normals(
+        search_param=o3d.geometry.KDTreeSearchParamKNN(knn=10))
+估计物体表面法线，让最短轴和法线重合。
+找临近且法线相似的高斯球，使用KD树
+只在初始化时强制压扁高斯球，初始化为[一半，一半，0]
+提出新的分裂和克隆操作，使新高斯球沿着表面切线增长：
+记录当前高斯球和邻近高斯球的法线差距，差距小的才能增长
