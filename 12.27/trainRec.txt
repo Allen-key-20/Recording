@@ -1,0 +1,352 @@
+dataset:train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 0
+total points number : 1092398
+Scene: ./output/train/O
+Method: ours_30000
+  SSIM :    0.8136274
+  PSNR :   21.9115085
+  LPIPS:    0.2062684
+
+dataset:train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 0
+total points number : 1206481
+Scene: ./output/train/canny/1.5
+Method: ours_30000
+  SSIM :    0.8139374
+  PSNR :   22.0333881
+  LPIPS:    0.2080833
+
+dataset : train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 0
+total points number : 1202869
+Scene: ./output/train/canny/1.5
+Method: ours_30000
+  SSIM :    0.8136309
+  PSNR :   21.9823341
+  LPIPS:    0.2082852
+
+dataset : train  这里是不改变SH系数迭代时机的
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 5000
+total points number : 890289
+Scene: ./output/train/don_sample/0.25
+Method: ours_30000
+  SSIM :    0.8094248
+  PSNR :   21.7891788
+  LPIPS:    0.2162083
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 5000
+total points number : 885234
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8090392
+  PSNR :   21.8789291
+  LPIPS:    0.2168491
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 892665
+Scene: ./output/train/down_sample/0.125
+Method: ours_30000
+  SSIM :    0.8057210
+  PSNR :   21.7665348
+  LPIPS:    0.2204073
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 966267
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8095812
+  PSNR :   21.9353313
+  LPIPS:    0.2163939
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1010920
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8114985
+  PSNR :   21.9715805
+  LPIPS:    0.2120682
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1016184
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8126096
+  PSNR :   21.9989243
+  LPIPS:    0.2117563
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1044900
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8134807
+  PSNR :   21.8688393
+  LPIPS:    0.2104020
+
+dataset : train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1053917
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8139113
+  PSNR :   22.0348263
+  LPIPS:    0.2090630
+
+dataset : train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1063566
+Scene: ./output/train/down_sample/0.25
+Method: ours_30000
+  SSIM :    0.8131624
+  PSNR :   21.9607029
+  LPIPS:    0.2107725
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1065302
+Scene: ./output/train/down_sample/0.5
+Method: ours_30000
+  SSIM :    0.8158460
+  PSNR :   22.1435585
+  LPIPS:    0.2079597
+
+dataset : train
+flatten_loss = 0.0; canny_loss = 0.0; down_sample_iter = 3000
+total points number : 1061759
+Scene: ./output/train/down_sample/0.5
+Method: ours_30000
+  SSIM :    0.8146244
+  PSNR :   21.9836273
+  LPIPS:    0.2096870
+
+flatten_loss = 0.0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1079006
+Scene: ./output/train/down_sample/0.5
+Method: ours_30000
+  SSIM :    0.8134741
+  PSNR :   21.7745037
+  LPIPS:    0.2093323
+
+dataset : train
+flatten_loss = 0.0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1105203
+Scene: ./output/train/canny_loss/1.5
+Method: ours_30000
+  SSIM :    0.8127922
+  PSNR :   21.8902111
+  LPIPS:    0.2083518
+
+dataset : train
+flatten_loss = 0.0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1107916
+Scene: ./output/train/canny_loss/1.5
+Method: ours_30000
+  SSIM :    0.8127680
+  PSNR :   21.9318390
+  LPIPS:    0.2087557
+
+dataset : train
+flatten_loss = 0.0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 1108581
+Scene: ./output/train/canny_loss/1.5
+Method: ours_30000
+  SSIM :    0.8118353
+  PSNR :   21.9600067
+  LPIPS:    0.2083241
+
+dataset : train
+flatten_loss = 100.0; canny_loss = 100; down_sample_iter = 0
+total points number : 2051571
+Scene: ./output/train/flatten_loss/100
+Method: ours_30000
+  SSIM :    0.8048579
+  PSNR :   21.5920010
+  LPIPS:    0.2114699
+
+dataset : train
+flatten_loss = 50.0; canny_loss = 50; down_sample_iter = 0
+total points number : 2074800
+Scene: ./output/train/flatten_loss/50
+Method: ours_30000
+  SSIM :    0.8127707
+  PSNR :   21.9596252
+  LPIPS:    0.2060925
+
+dataset : train
+flatten_loss = 0; canny_loss = 0.5; down_sample_iter = 3000
+total points number : 761844
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8029712
+  PSNR :   21.8480473
+  LPIPS:    0.2302498
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 757118
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8029997
+  PSNR :   21.7997284
+  LPIPS:    0.2292360
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 946100
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8122691
+  PSNR :   21.9176693
+  LPIPS:    0.2127486
+
+dataset : train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 782590
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8040299
+  PSNR :   21.7867298
+  LPIPS:    0.2297793
+
+dataset : train
+flatten_loss = 0; canny_loss = 1.5; down_sample_iter = 3000
+total points number : 844860
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8047762
+  PSNR :   21.7198067
+  LPIPS:    0.2263719
+
+dataset : train
+flatten_loss = 0; canny_loss = 3; down_sample_iter = 3000
+total points number : 979807
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8063928
+  PSNR :   21.8985462
+  LPIPS:    0.2220287
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 824549
+Scene: ./output/train/small_prune/0.5
+Method: ours_30000
+  SSIM :    0.8071659
+  PSNR :   21.8962040
+  LPIPS:    0.2224277
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1032159
+Scene: ./output/train/down_sample/0.5
+Method: ours_30000
+  SSIM :    0.8130478
+  PSNR :   21.8468113
+  LPIPS:    0.2101578
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 1450763
+Scene: ./output/train/opacity/0.5
+Method: ours_30000
+  SSIM :    0.8217570
+  PSNR :   21.8557892
+  LPIPS:    0.1927196
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 635234
+Scene: ./output/train/opacity/0.005
+Method: ours_30000
+  SSIM :    0.8064097
+  PSNR :   22.0414143
+  LPIPS:    0.2337758
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 639348
+Scene: ./output/train/opacity/0.005
+Method: ours_30000
+  SSIM :    0.8052653
+  PSNR :   21.9730873
+  LPIPS:    0.2342588
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 921196
+Scene: ./output/train/opacity/0.002
+Method: ours_30000
+  SSIM :    0.8175104
+  PSNR :   22.2201290
+  LPIPS:    0.2103587
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 5000
+total points number : 869472
+Scene: ./output/train/opacity/0.002
+Method: ours_30000
+  SSIM :    0.8170109
+  PSNR :   22.0045013
+  LPIPS:    0.2116916
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 5000
+total points number : 800495
+Scene: ./output/train/opacity/0.002
+Method: ours_30000
+  SSIM :    0.8101536
+  PSNR :   21.7515392
+  LPIPS:    0.2208610
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 816037
+Scene: ./output/train/opacity/0.002
+Method: ours_30000
+  SSIM :    0.8116776
+  PSNR :   21.9026127
+  LPIPS:    0.2199064
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 810180
+Scene: ./output/train/opacity/0.002
+Method: ours_30000
+  SSIM :    0.8110570
+  PSNR :   21.9546528
+  LPIPS:    0.2210426
+
+dataset : train
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 636511
+Scene: ./output/train/opacity/0.004
+Method: ours_30000
+  SSIM :    0.8067006
+  PSNR :   21.9310551
+  LPIPS:    0.2348315
+
+dataset : train
+这里每次减少0.003的透明度，删掉平均值小的高斯球
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 712979
+Scene: ./output/train/opacity/0.003
+Method: ours_30000
+  SSIM :    0.8105144
+  PSNR :   22.0558147
+  LPIPS:    0.2269014
+
+dataset : train
+这里是仅每次减少0.003的透明度
+flatten_loss = 0; canny_loss = 0; down_sample_iter = 3000
+total points number : 917102
+Scene: ./output/train/opacity/0.003
+Method: ours_30000
+  SSIM :    0.8201287
+  PSNR :   22.0991383
+  LPIPS:    0.2073242
+
